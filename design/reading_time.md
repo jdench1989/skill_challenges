@@ -28,16 +28,16 @@ def reading_time(text):
 Make a list of examples of what the function will take and return.
 
 # given a string of 0 words it returns a result of 0 seconds
-reading_time('0 words string) => 00:00:00
+reading_time('0 words string) => 0
 
 # given a string of 200 words it returns a result of 1 minute
-reading_time('200 words string) => 00:01:00
+reading_time('200 words string) => 1
 
 # given a string of 2000 words it returns a result of 10 minutes
-reading_time('2000 words string) => 00:10:00
+reading_time('2000 words string) => 10
 
 # given a string of 100 words it returns a result of 30 seconds
-reading_time('100 words string) => 00:00:30
+reading_time('100 words string) => 0.5
 
 4. Implement the Behaviour
 After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour.
