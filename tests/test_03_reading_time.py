@@ -1,4 +1,4 @@
-from lib.reading_time import *
+from lib._03_reading_time import *
 import pytest
 
 def test_given_a_string_of_0_words_returns_0():
