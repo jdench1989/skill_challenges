@@ -1,4 +1,4 @@
-from lib.count_words import *
+from lib._02_count_words import *
 import pytest
 
 def test_empty_string():
