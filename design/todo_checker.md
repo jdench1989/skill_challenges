@@ -36,11 +36,17 @@ def test_empty_string_returns_false() ==> False
 # Given a string not containing '#TODO' returns False
 def test_string_not_containing_todo_returns_false() ==> False
 
-# Given a string containing '#TODO' returns True
-def test_string_containing_todo_returns_true() ==> True
+# Given a string containing '#TODO' at the start returns True
+def test_given_string_containing_todo_at_start_returns_true() ==> True
+
+# Given a string including '#TODO' at the end returns True
+def test_string_containing_todo_at_end_returns_true() ==> True
+
+# Given a string including '#TODO' somewhere in the middle of the string returns True
+def test_string_containing_todo_not_at_start_or_end_returns_true ==> True
 
 # Given a non-string input returns a suitable error message
-def test_nonstring_input_returns_error
+def test_nonstring_input_returns_error ==> "Input must be a string"
 
 4. Implement the Behaviour
 After each test you write, follow the test-driving process of red, green, refactor to implement the behaviour.
