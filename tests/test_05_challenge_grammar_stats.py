@@ -1,4 +1,4 @@
-from lib._05_test_drive_a_class_challenge import GrammarStats
+from lib._05_challenge_grammar_stats import GrammarStats
 import pytest
 
 # self.check returns true if passed a string with capital letter 
