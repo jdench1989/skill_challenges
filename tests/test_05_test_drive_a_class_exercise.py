@@ -1,4 +1,4 @@
-from lib._05_test_drive_a_class import *
+from lib._05_test_drive_a_class_exercise import *
 
 def test_initial_parameters():
     diary_entry = DiaryEntry('Entry1', 'This is a diary entry')
